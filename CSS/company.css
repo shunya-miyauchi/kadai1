@@ -1,0 +1,150 @@
+html {
+    font-size: 62.5%;
+    height: 100%;
+}
+body {
+    height: 100%;
+}
+.container {
+    width: 980px;
+    position: relative;
+    margin: auto;
+    min-height: 100%;
+}
+header {
+    background-color:  #F5B4B3;
+    height: 50px;
+    font-size: 1.5rem;
+}
+.logo_image {
+    width: 110px;
+    float: left;
+    margin: 0;
+}
+.top_menu li {
+    float: left;
+    width: auto;
+}
+.clearfix:after {
+    content: "";
+    display: block;
+    clear: both;
+}
+ul {
+    margin: 0;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+.top_menu li a {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 15px;
+}
+.top_menu li a:hover {
+    text-decoration: underline;
+}
+.image_area {
+    width: 100%;
+}
+.side_menu li{
+    background-color: #F5B4B3;
+    height: 6rem;
+    margin-bottom: 10px;
+}
+.side_menu li a {
+    color: #fff;
+    font-size: 2rem;
+    text-decoration: none;
+    padding: 2rem;
+    display: block;
+}
+.banner img {
+    width: 100%;
+}
+.banner {
+    margin-top: 20px;
+}
+.side_menu {
+    float: left;
+    width: 300px;
+}
+.wrapper {
+    margin-top: 10px;
+    padding-bottom: 100px;
+}
+.side_menu li:hover {
+    opacity: 0.6;
+}
+.banner:hover {
+    opacity: 0.6;
+}
+.content {
+    width: 660px;
+    margin-left: 20px;
+    float: left;
+}
+.news {
+    height: 200px;
+    background-color: #FCE8E7;
+    padding: 20px;
+    overflow: scroll;
+    line-height: 2;
+}
+.footer {
+    background-color: #4D4D4D;
+    height: 100px;
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    display: table;
+}
+.footer p {
+    font-size: 1rem;
+    color: #fff;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell
+}
+.banner_content {
+    margin-top: 10px;
+    display: table;
+}
+.banner_content a {
+    display: table-cell;
+    text-align: center;
+}
+.banner_content a img {
+    width: 100%;
+}
+.side_menu .point {
+    background-color: #FCECEC;
+}
+.side_menu .point a{
+    color: #4D4D4D;
+}
+.company tr {
+    height: 5rem;
+}
+.company th {
+    width: 100px;
+    background-color: #B1B1B1;
+    color: #fff;
+    border-bottom: solid 1px white;
+}
+.company td {
+    width: 560px;
+    padding-left: 1rem;
+    border: solid 1px #B1B1B1;
+}
+.company {
+    border-collapse: collapse;
+}
+.company tr:last-child th {
+    border-color: #B1B1B1;
+}
+.company tr:first-child th {
+    border-top: solid 1px #B1B1B1;
+}
